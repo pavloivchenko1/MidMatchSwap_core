@@ -1,0 +1,361 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/admin/dev/MidMatchSwap_core/contracts/FeePoolList.sol": {
+      "lastModificationDate": 1621238965905,
+      "contentHash": "dd642a386e2ae51ba49f96d9aa519189",
+      "sourceName": "contracts/FeePoolList.sol",
+      "solcConfig": {
+        "version": "0.8.1",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./libraries/FeePool.sol",
+        "./libraries/Customer.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "FeePoolList"
+      ]
+    },
+    "/Users/admin/dev/MidMatchSwap_core/contracts/libraries/FeePool.sol": {
+      "lastModificationDate": 1621238965911,
+      "contentHash": "b308883e0261cd1434ebd4636ba03847",
+      "sourceName": "contracts/libraries/FeePool.sol",
+      "solcConfig": {
+        "version": "0.8.1",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../QueueImpl.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "FeePool"
+      ]
+    },
+    "/Users/admin/dev/MidMatchSwap_core/contracts/libraries/Customer.sol": {
+      "lastModificationDate": 1621238965911,
+      "contentHash": "1b266da8a2c63dbed6aea3b743c256a3",
+      "sourceName": "contracts/libraries/Customer.sol",
+      "solcConfig": {
+        "version": "0.8.1",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "Customer"
+      ]
+    },
+    "/Users/admin/dev/MidMatchSwap_core/contracts/QueueImpl.sol": {
+      "lastModificationDate": 1621238965906,
+      "contentHash": "4f256fa88cc8ffad6f8ffb5b02835ccd",
+      "sourceName": "contracts/QueueImpl.sol",
+      "solcConfig": {
+        "version": "0.8.1",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./libraries/Customer.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "CustomerQueue"
+      ]
+    },
+    "/Users/admin/dev/MidMatchSwap_core/contracts/MidMatchPair.sol": {
+      "lastModificationDate": 1621238965905,
+      "contentHash": "7f1aa0689142b15d08ab5d1bcd224469",
+      "sourceName": "contracts/MidMatchPair.sol",
+      "solcConfig": {
+        "version": "0.8.1",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@uniswap/v2-core/contracts/interfaces/IUniswapV2Pair.sol",
+        "./FeePoolList.sol",
+        "./libraries/FeePool.sol",
+        "./interfaces/IERC20.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "MidMatchPair"
+      ]
+    },
+    "/Users/admin/dev/MidMatchSwap_core/node_modules/@uniswap/v2-core/contracts/interfaces/IUniswapV2Pair.sol": {
+      "lastModificationDate": 1621239040801,
+      "contentHash": "3fa31c3860f2b9585c3a98c64850829e",
+      "sourceName": "@uniswap/v2-core/contracts/interfaces/IUniswapV2Pair.sol",
+      "solcConfig": {
+        "version": "0.8.1",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IUniswapV2Pair"
+      ]
+    },
+    "/Users/admin/dev/MidMatchSwap_core/contracts/interfaces/IERC20.sol": {
+      "lastModificationDate": 1621238965910,
+      "contentHash": "60eb5aa99887f94dbbb502daf32016a0",
+      "sourceName": "contracts/interfaces/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.1",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/Users/admin/dev/MidMatchSwap_core/contracts/MidMatchPairFactory.sol": {
+      "lastModificationDate": 1621238965905,
+      "contentHash": "0c87d517e430084a06c82446599cad6c",
+      "sourceName": "contracts/MidMatchPairFactory.sol",
+      "solcConfig": {
+        "version": "0.8.1",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./MidMatchPair.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "MidMatchPairFactory"
+      ]
+    },
+    "/Users/admin/dev/MidMatchSwap_core/contracts/interfaces/IERC20Minimal.sol": {
+      "lastModificationDate": 1621238965910,
+      "contentHash": "34aff9fad46af2010d035efe611035e5",
+      "sourceName": "contracts/interfaces/IERC20Minimal.sol",
+      "solcConfig": {
+        "version": "0.8.1",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "IERC20Minimal"
+      ]
+    },
+    "/Users/admin/dev/MidMatchSwap_core/contracts/test/TestERC20.sol": {
+      "lastModificationDate": 1621238965914,
+      "contentHash": "289b320f6271f2dfd88a7a28b4a09349",
+      "sourceName": "contracts/test/TestERC20.sol",
+      "solcConfig": {
+        "version": "0.8.1",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IERC20Minimal.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "TestERC20"
+      ]
+    }
+  }
+}

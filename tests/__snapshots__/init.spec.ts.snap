@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MidMatchPair factory bytecode size 1`] = `21952`;
